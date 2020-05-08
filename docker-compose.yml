@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  JupyterLab:
+    image: jupyter/datascience-notebook:latest
+    volumes:
+      - ./work:/home/jovyan/work
+      - ./start-notebook.d:/usr/local/bin/start-notebook.d
+      - ./before-notebook.d:/usr/local/bin/before-notebook.d
+    ports:
+      - "0:0:0:0:1248:8888"
+    restart: unless-stopped
+    command: start.sh jupyter lab --LabApp.token='' --NotebookApp.notebook_dir='/home/jovyan/work' --NotebookApp.password='${PW}'
+
