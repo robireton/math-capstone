@@ -10,5 +10,10 @@ services:
     ports:
       - "0:0:0:0:1248:8888"
     restart: unless-stopped
-    command: start.sh jupyter lab --LabApp.token='' --NotebookApp.notebook_dir='/home/jovyan/work' --NotebookApp.password='${PW}'
+    command: >
+      start.sh jupyter lab 
+      --LabApp.token=''
+      --NotebookApp.notebook_dir='/home/jovyan/work'
+      --NotebookApp.password='${PW}'
+      --NotebookApp.enable_mathjax=True
 
