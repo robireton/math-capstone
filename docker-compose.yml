@@ -15,5 +15,6 @@ services:
       --LabApp.token=''
       --NotebookApp.notebook_dir='/home/jovyan/work'
       --NotebookApp.password='${PW}'
+      --LabApp.base_url='${BASE_URL}'
       --NotebookApp.enable_mathjax=True
 
