@@ -30,6 +30,13 @@ Modules for namespacing; Dictionaries; Dates; `isequal` as a filter function
 Custom infix operator; sets; OEIS
 
 
+
+## 24 · Lexicographic permutations
+
+Character ranges; `allunique`; OEIS; `factorial`; `divrem`; `setdiff`; recursion; Combinatorics library; `permutations`
+
+
+
 ## 59 · XOR Decryption
 
 File I/O (`DelimitedFiles.readdlm`); reshaping arrays; Dictionaries; Array comprehensions; strings and characters; bit manipulation; type coercion
