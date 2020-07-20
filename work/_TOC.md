@@ -30,11 +30,29 @@ Modules for namespacing; Dictionaries; Dates; `isequal` as a filter function
 Custom infix operator; sets; OEIS
 
 
+## 23 · Non-abundant Sums
+
+Custom infix operator; Generator Expressions; Ranges; Sets; `sum`
+
 
 ## 24 · Lexicographic permutations
 
 Character ranges; `allunique`; OEIS; `factorial`; `divrem`; `setdiff`; recursion; Combinatorics library; `permutations`
 
+
+## 39 · Integer Right Triangles
+
+Dictionaries; `for` loops; `argmax`
+
+
+## 46 · Goldbach’s Other Conjecture
+
+Primes Library; `any`; generator expression; integer square root (`isqrt`); integer division (÷)
+
+
+## 54 · Poker Hands
+
+Custom Types; modules; HTML display; …
 
 
 ## 59 · XOR Decryption
