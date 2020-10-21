@@ -8,7 +8,7 @@ services:
       - ./start-notebook.d:/usr/local/bin/start-notebook.d
       - ./before-notebook.d:/usr/local/bin/before-notebook.d
     ports:
-      - "0:0:0:0:1248:8888"
+      - "0.0.0.0:1248:8888"
     restart: unless-stopped
     command: >
       start.sh jupyter lab 
